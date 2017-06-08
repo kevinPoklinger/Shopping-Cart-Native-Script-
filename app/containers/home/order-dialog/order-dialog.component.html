@@ -1,0 +1,80 @@
+<!--<dialog>
+
+  <DockLayout #mainPage>
+    <FlexboxLayout
+      dock="bottom"
+      width="100%"
+      class="footer">
+      <Button
+        flexGrow="1"
+        text="Cancel"
+        (tap)="hide()"></Button>
+      <Button
+        flexGrow="1"
+        text="Start your order"
+        class="primary"></Button>
+    </FlexboxLayout>
+
+    <ScrollView>
+      <StackLayout orientation="vertical">
+        <section label="ORDER TYPE">
+          <radio-group
+            [items]="orderTypes"
+            [selectedItem]="orderTypes[0]"
+            (onSelected)="onSelectedType($event)">
+          </radio-group>
+        </section>
+
+        <section label="DELIVERY SUBURB">
+          <detail-item
+            [label]="selectedSuburb ? selectedSuburb.label + ' - ' + selectedSuburb.postcode : 'Select suburb...'"
+            [color]="selectedSuburb ? '#575959' : '#ff5832'"
+            (tap)="showSuburbs()"></detail-item>
+        </section>
+
+        <section>
+          <detail-item
+            [label]="selectedDate ? selectedDate.label : 'Select date...'"
+            [color]="selectedDate ? '#575959' : '#ff5832'"
+            (tap)="showDates()"></detail-item>
+          <detail-item
+            [label]="selectedTime ? selectedTime.label : 'Select time...'"
+            [color]="selectedTime ? '#575959' : '#ff5832'"
+            (tap)="showTimes()"></detail-item>
+        </section>
+      </StackLayout>      
+    </ScrollView>
+  </DockLayout>
+
+  <GridLayout #subPage class="subPage">
+    <ScrollView *ngIf="navStack[0]=='suburbsPage'">
+      <radio-group
+        [items]="suburbService.suburbs"
+        [selectedItem]="selectedSuburb"
+        (onSelected)="onSelectedSuburb($event)">
+      </radio-group>
+    </ScrollView>
+
+    <ScrollView *ngIf="navStack[0]=='datePage'">
+      <radio-group
+        [items]="dates"
+        [selectedItem]="selectedDate"
+        (onSelected)="onSelectedDate($event)">
+      </radio-group>
+    </ScrollView>
+
+    <ScrollView *ngIf="navStack[0]=='timePage'">
+      <radio-group
+        [items]="times"
+        [selectedItem]="selectedTime"
+        (onSelected)="onSelectedTime($event)">
+      </radio-group>
+    </ScrollView>
+  </GridLayout>
+
+</dialog>-->
+<!--<Label text="ddd"></Label>-->
+ 
+<test>  
+</test> 
+

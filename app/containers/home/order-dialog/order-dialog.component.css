@@ -1,0 +1,25 @@
+
+ScrollView {
+  background-color: #efefef;
+}
+
+.subPage {
+  transform: translate(355, 0);
+}
+
+.footer Button {
+  height: 50;
+  border-left-color: #dedede;
+  border-bottom-width: 0.5;
+  border-top-color: #dedede;
+  border-top-width: 0.5;
+  color: #9d9c9c;
+  font-size: 18;
+  font-weight: bold;
+}
+
+.footer .primary {
+  border-left-color: #dedede;
+  border-left-width: 0.5;
+  color: #ff5832;
+}
